@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF385B591A01025B001642A5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DF385B581A01025B001642A5 /* main.c */; };
+		DF788F271A6BF79E009F4F43 /* LinkedStack.c in Sources */ = {isa = PBXBuildFile; fileRef = DF788F261A6BF79E009F4F43 /* LinkedStack.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		DF385B551A01025B001642A5 /* USACO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = USACO; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF385B581A01025B001642A5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DF385B5F1A01131C001642A5 /* ride.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = ride.in; sourceTree = "<group>"; };
+		DF788F261A6BF79E009F4F43 /* LinkedStack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedStack.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		DF385B4C1A01025A001642A5 = {
 			isa = PBXGroup;
 			children = (
+				DF788F261A6BF79E009F4F43 /* LinkedStack.c */,
 				DF385B571A01025B001642A5 /* USACO */,
 				DF385B561A01025B001642A5 /* Products */,
 			);
@@ -121,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF385B591A01025B001642A5 /* main.c in Sources */,
+				DF788F271A6BF79E009F4F43 /* LinkedStack.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

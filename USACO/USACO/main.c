@@ -6,10 +6,18 @@
 
 #include<stdio.h>
 
-struct stack {
-    int *next;
+struct nameStack {
     char name;
+    struct nameStack *next;
 };
+
+void initStack(struct nameStack* head){
+    head = NULL;
+}
+
+struct nameStack* pushStack(struct nameStack* head, char* name, short nameLength){
+    
+}
 
 int main()
 {
